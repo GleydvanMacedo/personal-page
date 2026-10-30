@@ -1,3 +1,41 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_opsz_wght.ttf") format("truetype");
+  font-style: normal;
+}
+
+:root {
+  --background-primary-color: #0b0f1a;
+  --background-secondary-color: #111827;
+
+  --text-primary-color: #e5e7eb;
+  --text-secondary-color: #94a3b8;
+
+  --highlight-primary-color: #8b5cf6;
+  --hightlight-secondary-color: #06b6d4;
+
+  --titles-subtitles-font-family: "Poppins", sans-serif;
+  --texts-font-family: "Inter", sans-serif;
+
+  --titles-weight: 700;
+  --subtitles-weight: 600;
+  --texts-weight: 400;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
