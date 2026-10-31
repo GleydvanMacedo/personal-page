@@ -28,6 +28,8 @@
   --highlight-primary-color: #8b5cf6;
   --hightlight-secondary-color: #06b6d4;
 
+  --icons-border-color: #ffffff;
+
   --titles-subtitles-font-family: "Poppins", sans-serif;
   --texts-font-family: "Inter", sans-serif;
 
@@ -128,6 +130,12 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 /* HTML5 display-role reset for older browsers */
 article,
