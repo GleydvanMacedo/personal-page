@@ -173,3 +173,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  background-color: var(--background-primary-color);
+}
+
+h1 {
+  font-family: var(--titles-subtitles-font-family);
+  font-weight: var(--titles-weight);
+  color: var(--text-primary-color);
+}
+
+h2 {
+  font-family: var(--titles-subtitles-font-family);
+  font-weight: var(--subtitles-weight);
+  color: var(--text-primary-color);
+}
+
+p {
+  font-family: var(--texts-font-family);
+  font-weight: var(--texts-weight);
+  color: var(--text-primary-color);
+}

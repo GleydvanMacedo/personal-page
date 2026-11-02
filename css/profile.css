@@ -1,0 +1,71 @@
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.profile-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.profile-text-content h1 {
+  font-size: 1.8rem;
+}
+
+.profile-text-content-highlight {
+  color: var(--highlight-primary-color);
+  font-size: 2rem;
+}
+
+.profile-text-content h2 {
+  font-size: 1.5rem;
+}
+
+.profile-content-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 6px solid var(--highlight-primary-color);
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.profile-social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1rem;
+}
+
+.github-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffffff;
+  stroke: var(--icons-border-color);
+  stroke-width: 20px;
+}
+
+.linkedin-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffffff;
+  stroke: var(--icons-border-color);
+  stroke-width: 20px;
+}
+
+.mail-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffffff;
+  stroke: var(--icons-border-color);
+  stroke-width: 20px;
+}
