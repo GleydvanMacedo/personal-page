@@ -193,5 +193,5 @@ h2 {
 p {
   font-family: var(--texts-font-family);
   font-weight: var(--texts-weight);
-  color: var(--text-primary-color);
+  color: var(--text-secondary-color);
 }
