@@ -21,6 +21,7 @@
 :root {
   --background-primary-color: #0b0f1a;
   --background-secondary-color: #111827;
+  --background-tertiary-color: rgba(139, 92, 246, 0.15);
 
   --text-primary-color: #e5e7eb;
   --text-secondary-color: #94a3b8;
