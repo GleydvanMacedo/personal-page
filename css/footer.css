@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--background-secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer-content-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content-list-item-icon {
+  width: 48px;
+  height: 48px;
+}
