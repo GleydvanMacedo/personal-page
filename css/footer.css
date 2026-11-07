@@ -7,10 +7,16 @@
 
 .footer-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem 0;
   padding: 1rem;
+}
+
+.footer-content-title {
+  font-size: 1.5rem;
 }
 
 .footer-content-list {
@@ -18,9 +24,20 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
+}
+
+.footer-content-list-item {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .footer-content-list-item-icon {
-  width: 48px;
-  height: 48px;
+  width: 100%;
+}
+
+.footer-content-copyright {
+  font-size: 0.8rem;
+  color: var(--text-secondary-color);
+  align-self: center;
 }
